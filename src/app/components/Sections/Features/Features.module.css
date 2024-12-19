@@ -1,0 +1,180 @@
+/* Features.module.css */
+
+.features {
+    padding: 1rem;
+    background-color: #A0DCFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 4rem;
+    overflow: hidden;
+  }
+  
+  .text {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  
+  .tTagline {
+    width: 100%;
+    color: #000;
+    font-size: 1.125rem;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.75rem;
+  }
+  
+  .tTitle {
+    width: 100%;
+    color: #000;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    line-height: 2.5rem;
+  }
+  
+  .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1.5rem;
+
+    
+  }
+  @media (max-width: 768px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); /* Crear 2 columnas */
+        gap: 1.5rem; /* Espaciado entre los ítems */
+      }
+  }  
+  .featureItem {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  /* Asegura que el título, subtítulo y "learn more" se distribuyan correctamente */
+    align-items: stretch;  /* Asegura que todos los items tengan la misma altura */
+
+    gap: 1.25rem;
+    height: 100%; 
+  }
+  
+  .iconContainer {
+    width: 2.75rem;
+    height: 2.75rem;
+    padding: 0.625rem;
+    background-color: #f1f5f9;
+    border-radius: 0.5rem;
+    border: 1px solid #2d3748;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .lighting {
+    width: 100%;
+    height: 100%;
+    padding: 0.125rem 0.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .sparkle {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .clipPathGroup {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+  }
+  
+  .group {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .lock {
+    width: 100%;
+    height: 100%;
+    padding: 0.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .heart {
+    width: 100%;
+    height: 100%;
+    padding: 0.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .textContainer {
+    width: 100%;
+    display: flex;
+    
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.625rem;
+    
+    height: 100%;  /* Asegura que ocupe todo el espacio disponible */
+  }
+  
+  .featureTitle {
+    width: 100%;
+    color: #000;
+    white-space: nowrap;
+
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.75rem;
+  }
+  
+  .featureSubtitle {
+    width: 100%;
+    color: #000;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.5rem;
+  }
+  
+  .learnMore {
+    width: 100%;
+    color: #000;
+    font-weight: bold;
+    
+    font-family: 'Inter', sans-serif;
+    line-height: 1.75rem;
+    white-space: nowrap;
+
+    cursor: pointer;
+    
+    transition: color 0.3s ease;
+    margin-top: auto;  /* Empuja el enlace al fondo del contenedor */
+  }
+  
+  
+  .learnMore:hover {
+    color: #00bcd4;
+  }
+  

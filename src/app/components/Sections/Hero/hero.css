@@ -1,0 +1,160 @@
+.hero-container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: rgba(73, 99, 108, 0);
+  overflow: hidden;
+  padding-top: 4rem;
+}
+
+.hero-content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 1.5rem 3rem;
+  top: 20%;
+  left: 10%;
+  z-index: 10;
+}
+
+@media (min-width: 1024px) {
+  .hero-content {
+    left: 12%;
+    top: 30%;
+  }
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.hero-title {
+  font-size: 2.25rem;
+  font-weight: bold;
+  line-height: 1.25;
+  color: #010101;
+}
+
+.hero-title span {
+  color: #7668fb;
+}
+
+.hero-subtitle {
+  font-size: 1rem;
+  font-weight: normal;
+  color: black;
+}
+
+.hero-button {
+  padding: 0.75rem 1.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 1rem;
+  background-color: #d2fab7;
+  border: 1px solid #d2fab7;
+  color: black;
+  transition: background-color 0.3s;
+}
+
+.hero-button:hover {
+  background-color: #a8e79a;
+}
+
+.hero-images-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.hero-images-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-image {
+  position: absolute;
+  border-radius: 50%;
+  padding: 20px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.hero-image.small {
+  width: 8rem;
+  height: 8rem;
+  left: 20%;
+  top: 0%;
+  background-color: #FFC3D8;
+  transform: translate(-50%, -50%);
+}
+.hero-image.pie {
+  width: 8rem;
+  height: 8rem;
+  top: 100%;
+  left: 80%;
+  background-color: #A0DCFF;
+  transform: translate(-50%, -50%);
+}
+
+.hero-image.medium {
+  width: 13rem;
+  height: 13rem;
+  background-color: #FCC228;
+  top: 15%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+
+
+}
+
+.hero-image.large {
+  width: 9rem;
+  height: 9rem;
+  top: 82%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  background-color: #9CC576;
+
+  @media (min-width: 380px){
+    top: 70%;
+    width: 12rem;
+    height: 12rem;
+
+
+  }
+}
+
+@media (min-width: 640px) {
+  .hero-image.small {
+    width: 10rem;
+    height: 10rem;
+    left: 10%;
+  }
+
+  .hero-image.medium {
+    width: 16rem;
+    height: 16rem;
+    top: 30%;
+    left: 80%;
+    background-color:#FCC228;
+  }
+
+  .hero-image.large {
+    width: 13rem;
+    height: 13rem;
+    top: 58%;
+    left: 58%;
+  }
+}
