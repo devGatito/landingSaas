@@ -7,7 +7,6 @@ const KeySolutions = () => {
         Comprehensive Solution
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-        {/* Imagen principal */}
         <div className="relative w-full h-64 md:h-[500px]">
           <img
             src="/assets/images/key/m_image01.png"
@@ -15,7 +14,6 @@ const KeySolutions = () => {
             className="w-full h-full object-contain"
           />
         </div>
-        {/* Contenido adicional */}
         <div className="flex flex-col gap-6">
           <div className="flex flex-col items-center md:items-start text-center md:text-left">
             <img

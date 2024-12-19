@@ -8,7 +8,6 @@ const Features = () => {
         <h1 className="text-black text-2xl font-bold leading-10">PramitiHR: Your Partner for Interviews</h1>
       </div>
       <div className="w-full h-full grid grid-cols-1 md:grid-cols-4 gap-6 justify-center items-center">
-        {/* Feature 1 */}
         <div className="flex flex-col justify-between items-center gap-5">
           <div className="w-11 h-11 p-2 bg-gray-100 rounded-lg border border-gray-700 flex justify-center items-center overflow-hidden">
             <img src="/assets/icons/ray.png" alt="Icon" />
@@ -21,7 +20,6 @@ const Features = () => {
           <a href="#" className="text-black font-bold leading-7 hover:text-cyan-400 text-center">Learn more about AI</a>
         </div>
 
-        {/* Feature 2 */}
         <div className="flex flex-col justify-between items-center gap-5">
           <div className="w-11 h-11 p-2 bg-gray-100 rounded-lg border border-gray-700 flex justify-center items-center overflow-hidden">
             <img src="/assets/icons/Group.png" alt="Icon" />
@@ -38,7 +36,6 @@ const Features = () => {
           <a href="#" className="text-black font-bold leading-7 hover:text-cyan-400 text-center">Find out more details</a>
         </div>
 
-        {/* Feature 3 */}
         <div className="flex flex-col justify-between items-center gap-5">
           <div className="w-11 h-11 p-2 bg-gray-100 rounded-lg border border-gray-700 flex justify-center items-center overflow-hidden">
             <img src="/assets/icons/candado.png" alt="Icon" />
@@ -51,7 +48,6 @@ const Features = () => {
           <a href="#" className="text-black font-bold leading-7 hover:text-cyan-400 text-center">Explore the results</a>
         </div>
 
-        {/* Feature 4 */}
         <div className="flex flex-col justify-between items-center gap-5">
           <div className="w-11 h-11 p-2 bg-gray-100 rounded-lg border border-gray-700 flex justify-center items-center overflow-hidden">
             <img src="/assets/icons/flow.png" alt="Icon" />

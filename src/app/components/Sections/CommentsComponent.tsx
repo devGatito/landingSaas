@@ -9,7 +9,6 @@ const CommentsComponent = () => {
         </div>
       </div>
       <div className="flex flex-wrap justify-center gap-6 px-4">
-        {/* Card 1 */}
         <div className="bg-white p-6 rounded-lg shadow-lg max-w-xs w-full">
           <div className="flex justify-center gap-1 mb-4">
             {[...Array(5)].map((_, index) => (
@@ -35,7 +34,6 @@ const CommentsComponent = () => {
           </div>
         </div>
 
-        {/* Card 2 */}
         <div className="bg-white p-6 rounded-lg shadow-lg max-w-xs w-full">
           <div className="flex justify-center gap-1 mb-4">
             {[...Array(5)].map((_, index) => (
@@ -61,7 +59,6 @@ const CommentsComponent = () => {
           </div>
         </div>
 
-        {/* Card 3 */}
         <div className="bg-white p-6 rounded-lg shadow-lg max-w-xs w-full">
           <div className="flex justify-center gap-1 mb-4">
             {[...Array(5)].map((_, index) => (
