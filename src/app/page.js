@@ -2,17 +2,16 @@
 
 import { ThemeProvider } from "@/app/context/ThemeContext";
 import { AuthProvider } from "@/app/context/AuthContext";
-import Hero from "@/app/components/Sections/Hero/Hero";
-import "./styles/globals.css";
 import NavBar from "./components/Layout/NavBar";
-import Features from "./components/Sections/Features/Features";
-import KeySolutions from "./components/Sections/KeySolution/KeySolution";
-import FooterComponent from "./components/Sections/Footer/Footer";
-import ProccessComponent from "./components/Sections/ProcessEnhancer/Process";
-import CommentsComponent from "./components/Sections/comments/CommentsComponent";
-import PriceComponents from "./components/Sections/Price/PriceComponents";
-import QuestionsComponent from "./components/Sections/Questions/QuestionsComponent";
-
+import Hero from "./components/Sections/Hero";
+import Features from "./components/Sections/Features";
+import KeySolutions from "./components/Sections/KeySolution";
+import "./styles/globals.css";
+import ProcessComponent from "./components/Sections/Process";
+import CommentsComponent from "./components/Sections/CommentsComponent";
+import PriceComponents from "./components/Sections/PriceComponents";
+import QuestionsComponent from "./components/Sections/QuestionsComponent";
+import FooterComponent from "./components/Sections/Footer";
 function MyApp({ Component, pageProps }) {
   return (
     <AuthProvider>
@@ -21,14 +20,10 @@ function MyApp({ Component, pageProps }) {
         <Hero />
         <Features />
         <KeySolutions />
-        {/*
-                <ProccessComponent />
-        <CommentsComponent/>
-        */}
-
+        <ProcessComponent />
+        <CommentsComponent />
         <PriceComponents />
-        <QuestionsComponent/>
-
+        <QuestionsComponent />
         <FooterComponent />
       </ThemeProvider>
     </AuthProvider>
