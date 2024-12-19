@@ -4,7 +4,9 @@
   align-items: center;
   background-color: #f8f8f8;
   border-top: 1px solid #ddd;
-  height: 200px;
+  height: 100vh;
+  margin-top:100px;
+
 }
 
 .footer-info {
